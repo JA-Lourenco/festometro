@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.1em;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #BD1E1E;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: slideUp 2s;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+main {
+    text-align: center;
+    margin: auto;
+}
+
+.user-container, .result-container {
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.user-container {
+    background-color: #F7D850;
+    border: 5px inset #9984D4;
+    margin-bottom: 10px;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+}
+
+input { 
+    display: block;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    background-color: transparent;
+}
+
+input:hover {
+    background-color: rgba(229, 226, 226, 0.425);
+}
+
+button {
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+button:hover {
+    background-color: #000;
+    color: #F7D850;
+    border-radius: 50px;
+}
+
+button:active {
+    width: 75%;
+    transition: all 0.1s ease;
+}
+
+.result-container {
+    background-color: #9984D4; /* #592E83 */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px outset  #F7D850;
+    margin-bottom: 2%;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+.result {
+    text-align: left;
+}
+
+.result span {
+    font-weight: bold;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.img-footer {
+    width: 40px;
+}
+
+.img-footer:hover {
+    padding: 2.5px;
+}
+
+@media (max-width: 970px) {
+
+    * {
+        font-size: 1em;
+    }
+
+    .user-container, .result-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 635px) {
+
+    .result-container {
+        display: block;
+    }
+
+    h4 {
+        margin-bottom: 15px;
+    }
+}

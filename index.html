@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Festômetro</title>
+</head>
+<body>
+
+    <h1>Festômetro</h1>
+
+    <h3></h3>
+
+    <main>
+        <section class="user-container">
+            <img class="img-main" src="assets/party-banner.png" alt="Banner de festa">
+
+            <h4>Insira a quantidade de pessoas que irão participar do evento:</h4>
+
+            <input id="adult" class="user-data" type="number" placeholder="Adultos" min="0">
+
+            <input id="kids" class="user-data" type="number" placeholder="Crianças" min="0">
+
+            <input id="time" class="user-data" type="number" placeholder="Duração (horas)" min="0" max="24">
+
+            <button id="user-calc">Calcular</button>
+        </section>
+
+        <section class="result-container">
+            <div>
+                <img class="img-main" src="assets/beer.png" alt="Ícone de cerveja">
+
+                <h4>Estimativa</h4>
+            </div>       
+
+            <div class="result">
+                <p>Carne:
+                    <span id="meat"></span>
+                </p>
+
+                <p>Cerveja:
+                    <span id="beer"></span>
+                </p>
+
+                <p>Refrigerante:
+                    <span id="refri"></span>
+                </p>
+
+                <p>Suco:
+                    <span id="juice"></span>
+                </p>
+            </div>
+        </section>
+    </main>     
+    
+    <footer>
+        <p>JA Lourenço</p>
+    
+        <abbr title="Visite meu LinkedIn"><a href="https://www.linkedin.com/in/ja-lourenco/" target="_blank" rel="author"><img class="img-footer" src="assets/linkedin.svg" alt="LinkedIn profile"></a></abbr>
+
+        <abbr title="Veja meu Github"><a href="https://github.com/JA-Lourenco" target="_blank" rel="author"><img class="img-footer" src="assets/github.svg" alt="Github profile"></a></abbr>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
