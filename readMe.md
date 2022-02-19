@@ -10,10 +10,18 @@
 
 [Demonstração](https://ja-lourenco.github.io/festometro/)
 
-#### Author
+#### Desktop
+
+
+
+#### Mobile
+
+
+
+#### Autor
 
 [@JA-Lourenco](https://github.com/JA-Lourenco)
 
-#### Programador BR
+#### Referência
 
 *Projeto do curso de Desenvolvimento Web Full Stack - [Programador BR](https://programadorbr.com)*
