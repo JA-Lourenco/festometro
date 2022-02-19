@@ -12,7 +12,7 @@
 
 #### Desktop
 
-[desktop-demo](https://im.ezgif.com/tmp/ezgif-1-9af57a0548.gif)
+![desktop-demo](https://im.ezgif.com/tmp/ezgif-1-9af57a0548.gif)
 
 #### Mobile
 
