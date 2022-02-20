@@ -12,11 +12,11 @@
 
 #### Desktop
 
-![desktop-demo](https://im.ezgif.com/tmp/ezgif-1-9af57a0548.gif)
+![image](https://user-images.githubusercontent.com/93841387/154850416-85764c56-36d1-4545-a718-0c2d8e495b07.png)
 
 #### Mobile
 
-![mobile-demo](https://im.ezgif.com/tmp/ezgif-1-293fc4ab4d.gif)
+![image](https://user-images.githubusercontent.com/93841387/154850437-c5170209-4ed6-441c-8241-a3d22ef12613.png)
 
 #### Autor
 
